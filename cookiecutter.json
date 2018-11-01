@@ -1,7 +1,4 @@
 {
   "project_name": "",
-  "project_slug": "{{ cookiecutter.project_name|lower()|replace(' ', '-') }}",
-  "witai_access_token": "WITAI_ACCESS_TOKEN",
-  "facebook_page_token": "FACEBOOK_PAGE_TOKEN",
-  "facebook_verify_token": "FACEBOOK_VERIFY_TOKEN"
+  "project_slug": "{{ cookiecutter.project_name|lower()|replace(' ', '-') }}"
 }
