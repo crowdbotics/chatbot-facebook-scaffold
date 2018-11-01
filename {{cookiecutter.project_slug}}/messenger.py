@@ -29,11 +29,11 @@ from wit import Wit
 from bottle import Bottle, request, debug
 
 # Wit.ai parameters
-WIT_TOKEN = os.environ.get('{{cookiecutter.witai_access_token}}')
+WIT_TOKEN = os.environ.get('WITAI_ACCESS_TOKEN')
 # Messenger API parameters
-FB_PAGE_TOKEN = os.environ.get('{{cookiecutter.facebook_page_token}}')
+FB_PAGE_TOKEN = os.environ.get('FACEBOOK_PAGE_TOKEN')
 # A user secret to verify webhook get request.
-FB_VERIFY_TOKEN = os.environ.get('{{cookiecutter.facebook_verify_token}}')
+FB_VERIFY_TOKEN = os.environ.get('FACEBOOK_VERIFY_TOKEN')
 
 # Setup Bottle Server
 debug(True)

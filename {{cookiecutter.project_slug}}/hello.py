@@ -1,4 +1,5 @@
 from wit import Wit
+import os
 
-client = Wit("{{cookiecutter.witai_access_token}}")
+client = Wit(os.environ.get('WITAI_ACCESS_TOKEN'))
 client.interactive()
